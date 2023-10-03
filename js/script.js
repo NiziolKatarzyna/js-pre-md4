@@ -5,7 +5,8 @@ var argComputerMove,
   playerInput,
   playerMove,
   randomNumber;
-var argButtonName, button_paper, button_scissors, buttonTest;
+var argButtonName, button_scissors, buttonTest;
+const button_paper = document.getElementById('button-paper');
 const button_rock = document.getElementById('button-rock');
 
 /**
@@ -73,7 +74,7 @@ function buttonClicked(argButtonName) {
 button_rock.addEventListener('click', function () {
   buttonClicked('kamień');
 });
-button_paper = document.getElementById('button-paper');
+
 button_paper.addEventListener('click', function () {
   buttonClicked('papier');
 });
