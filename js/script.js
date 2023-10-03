@@ -5,7 +5,8 @@ var argComputerMove,
   playerInput,
   playerMove,
   randomNumber;
-var argButtonName, button_scissors, buttonTest;
+var argButtonName, buttonTest;
+const button_scissors = document.getElementById('button-scissors');
 const button_paper = document.getElementById('button-paper');
 const button_rock = document.getElementById('button-rock');
 
@@ -78,7 +79,7 @@ button_rock.addEventListener('click', function () {
 button_paper.addEventListener('click', function () {
   buttonClicked('papier');
 });
-button_scissors = document.getElementById('button-scissors');
+
 button_scissors.addEventListener('click', function () {
   buttonClicked('nożyce');
 });
