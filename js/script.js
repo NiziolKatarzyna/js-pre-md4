@@ -5,7 +5,7 @@ var argComputerMove,
   playerInput,
   playerMove,
   randomNumber;
-var argButtonName, buttonTest;
+let argButtonName;
 const button_scissors = document.getElementById('button-scissors');
 const button_paper = document.getElementById('button-paper');
 const button_rock = document.getElementById('button-rock');
