@@ -1,11 +1,11 @@
-var argComputerMove,
+let argComputerMove,
   argMoveId,
   argPlayerMove,
   computerMove,
   playerInput,
   playerMove,
-  randomNumber;
-let argButtonName;
+  randomNumber,
+  argButtonName;
 const button_scissors = document.getElementById('button-scissors');
 const button_paper = document.getElementById('button-paper');
 const button_rock = document.getElementById('button-rock');
